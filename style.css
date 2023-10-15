@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(42, 41, 41);
+  color: white;
+}
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;  
+}
+h1 {
+  text-align: center;
+  margin: 30px;
+  color: rgb(255, 255, 255);
+}
+table {
+  margin-top: 30px;
+}
+.display-none {
+  display: none;
+}
+tbody td {
+  text-transform: uppercase;
+}
+tbody,
+thead,
+tfoot {
+  color: white;
+}
+.click-dev {
+  width: 100px;
+}
+.click-dev:hover {
+  transform: scale(1.1);
+  cursor: grab;
+}
+article {
+  text-align: center;
+  margin-top: 100px;
+}
